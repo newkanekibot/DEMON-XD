@@ -19,10 +19,15 @@
       "value": ""
     },
     "ASSISTANT_NAME": {
-            "description": "fill with the assistant username without @",
-            "required": true,
-            "value": "MusicXdAssistant"
-    },        
+      "description": "fill with the assistant username without @",
+      "required": true,
+      "value": "MusicXdAssistant"
+    },
+    "BOT_USERNAME": {
+      "description": "fill with your bot username without @",
+      "required": true,
+      "value": "TebKillerMusikbot"
+    },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true

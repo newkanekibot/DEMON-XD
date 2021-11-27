@@ -283,6 +283,6 @@ async def play(_, message: Message):
         reply_markup=keyboard,
         caption = f"🎵**𝐍𝐚𝐦𝐞 :** [{title[:50]}]({url})\n🕛 **𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧 :** `{duration}`\n" \
                     + f"🎧 **𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐁𝐲 :** {message.from_user.mention}",
-        ), )
+        ),
         os.remove("final.png")
         return await lel.delete()
